@@ -1,13 +1,13 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>All Posts - My Personal Blog</title>
+        <title>All Posts - m4ns0ur blog</title>
         <link>http://example.org/posts/</link>
-        <description>All Posts | My Personal Blog</description>
+        <description>All Posts | m4ns0ur blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 26 Jul 2022 12:57:56 &#43;0200</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
     <title>My First Post</title>
     <link>http://example.org/my-first-post/</link>
     <pubDate>Tue, 26 Jul 2022 12:57:56 &#43;0200</pubDate>
-    <author>Mansour</author>
+    <author>m4ns0ur</author>
     <guid>http://example.org/my-first-post/</guid>
     <description><![CDATA[Hello World!]]></description>
 </item>
