@@ -61,4 +61,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://m4ns0ur.github.io/sitemap.xml
+Sitemap: https://mansour.dev/sitemap.xml
