@@ -2,6 +2,10 @@
 title: "Issue with CH340 Driver in Linux"
 date: 2023-02-27T16:34:26+01:00
 draft: false
+
+tags: ["MCU", "ESP", "ESP8266", "USB-to-UART", "CH340", "Linux", "Driver"]
+categories: ["Embedded Programming", "Microcontroller", "ESP"]
+
 featuredImage: /images/esp8266-d1-mini.jpg
 ---
 
