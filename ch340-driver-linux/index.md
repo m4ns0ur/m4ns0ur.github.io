@@ -44,3 +44,4 @@ crw-rw---- 1 root dialout 188, 0 Feb 27 21:06 /dev/ttyUSB0
 Now you can select `/dev/ttyUSB0` in Arduino IDE Port option and flash the MCU.
 
 Enjoy hacking!
+
