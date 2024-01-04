@@ -1,6 +1,8 @@
 # Issue with CH340 Driver in Linux
 
 
+## 1 Driver Issue
+
 I just got an "ESP8266 D1 mini Dev Broad" by a friend of mine, and tried to play around. If you are not familiar, it is an MCU by [Espressif](https://www.espressif.com/) company, enhanced by extra features to make it a good dev board.
 
 This dev board is really easy to use (as other Espressif products), specially because of Micro USB (or USB-C) port on it. So you can just connect it to your computer and flash the MCU. Attaching a USB port was possible as dev board has a CH340 [USB-to-UART](https://en.wikipedia.org/wiki/USB-to-serial_adapter) chip. The chip is responsible for converting USB to Serial communication.
@@ -42,6 +44,12 @@ crw-rw---- 1 root dialout 188, 0 Feb 27 21:06 /dev/ttyUSB0
 ```
 
 Now you can select `/dev/ttyUSB0` in Arduino IDE Port option and flash the MCU.
+
+## 2 Power Consumption
+
+Unstable USB connection, also could be from power consumption (specially if you connect to WiFi in your program).
+Note that when you're programming MCU, it's better to disconnect it from other circuit parts (e.g. sensors, display, etc) and connect it standalone to USB cable. Power that provided with USB cable is not enough to handle whole circuit.
+Other option is using a "data only" USB cable (voltage wires are disconnected in this type of cables) for programming MCU, while it's connected to a separate power supplier.
 
 Enjoy hacking!
 
