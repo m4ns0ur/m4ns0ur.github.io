@@ -4,7 +4,7 @@ baseURL = 'https://mansour.dev'
 theme = 'LoveIt'
 
 # website title
-title = "Mansour's Web Page"
+title = "Mansour Rahimi"
 
 # language code ["en", "zh-CN", "fr", "pl", ...]
 languageCode = 'en-us'
@@ -34,7 +34,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 # Author config
 [author]
-  name = "Mansour"
+  name = "Mansour Rahimi"
   email = ""
   link = ""
 
@@ -47,25 +47,25 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     pre = ""
     # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
-    name = "Posts"
+    name = "Writing"
     url = "/posts/"
     # title will be shown when you hover on this menu link
     title = ""
   [[menu.main]]
     weight = 2
-    identifier = "tags"
+    identifier = "projects"
     pre = ""
     post = ""
-    name = "Tags"
-    url = "/tags/"
+    name = "Projects"
+    url = "/projects/"
     title = ""
   [[menu.main]]
     weight = 3
-    identifier = "categories"
+    identifier = "about"
     pre = ""
     post = ""
-    name = "Categories"
-    url = "/categories/"
+    name = "About"
+    url = "/about/"
     title = ""
 
 [params]
@@ -79,9 +79,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   #  date format
   dateFormat = "2006-01-02"
   # website title for Open Graph and Twitter Cards
-  title = "Mansour's Web Page"
+  title = "Mansour Rahimi"
   # website description for RSS, SEO, Open Graph and Twitter Cards
-  description = "Mansour's Web Page"
+  description = "Software engineer exploring AI agents, reliable AI systems, and the future of software engineering."
   # website images for Open Graph and Twitter Cards
   images = ["/logo.png"]
 
@@ -96,7 +96,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # URL of the LOGO
       logo = ""
       # title name
-      name = "Mansour's Web Page"
+      name = "Mansour Rahimi"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
@@ -143,7 +143,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   #  App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "Mansour's Web Page"
+    title = "Mansour Rahimi"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
@@ -189,9 +189,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # URL of avatar shown in home page
       avatarURL = "/images/avatar.jpg"
       #  title shown in home page (HTML format is supported)
-      title = "Mansour's Web Page"
+      title = "Mansour Rahimi"
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "All about computers!"
+      subtitle = "Engineering reliable software with AI agents."
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
@@ -283,7 +283,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     RootMe= ""
     Phone = ""
     Email = "rahimi.mnr@gmail.com"
-    RSS = true # 
+    RSS = true #
 
   #  Page global config
   [params.page]
@@ -379,13 +379,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       enable = true
       # Disqus comment config
       [params.page.comment.disqus]
-        # 
+        #
         enable = true
         # Disqus shortname to use Disqus in posts
         shortname = "m4ns0ur"
       # Gitalk comment config
       [params.page.comment.gitalk]
-        # 
+        #
         enable = false
         owner = ""
         repo = ""
@@ -615,7 +615,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 # Options to make hugo output files
 [outputs]
-  # 
+  #
   home = ["HTML", "RSS", "JSON"]
   page = ["HTML", "MarkDown"]
   section = ["HTML", "RSS"]

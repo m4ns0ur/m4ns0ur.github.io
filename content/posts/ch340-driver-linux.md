@@ -4,12 +4,12 @@ date: 2023-02-27T16:34:26+01:00
 draft: false
 
 tags: ["MCU", "ESP", "ESP8266", "USB-to-UART", "CH340", "Linux", "Driver"]
-categories: ["Embedded Programming", "Microcontroller", "ESP"]
+categories: ["Embedded Programming"]
 
 featuredImage: /images/esp8266-d1-mini.jpg
 ---
 
-## 1 Driver Issue
+## Driver Issue
 
 I just got an "ESP8266 D1 mini Dev Broad" by a friend of mine, and tried to play around. If you are not familiar, it is an MCU by [Espressif](https://www.espressif.com/) company, enhanced by extra features to make it a good dev board.
 
@@ -53,7 +53,7 @@ crw-rw---- 1 root dialout 188, 0 Feb 27 21:06 /dev/ttyUSB0
 
 Now you can select `/dev/ttyUSB0` in Arduino IDE Port option and flash the MCU.
 
-## 2 Power Consumption
+## Power Consumption
 
 Unstable USB connection, also could be from power consumption (specially if you connect to WiFi in your program).
 Note that when you're programming MCU, it's better to disconnect it from other circuit parts (e.g. sensors, display, etc) and connect it standalone to USB cable. Power that provided with USB cable is not enough to handle whole circuit.
