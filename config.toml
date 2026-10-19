@@ -34,7 +34,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 # Author config
 [author]
-  name = "Mansour Rahimi"
+  name = "Mansour"
   email = ""
   link = ""
 
@@ -84,6 +84,12 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   description = "Software engineer exploring AI agents, reliable AI systems, and the future of software engineering."
   # website images for Open Graph and Twitter Cards
   images = ["/logo.png"]
+
+  [params.author]
+    name = "Mansour"
+    email = ""
+    link = ""
+
 
   # Header config
   [params.header]
